@@ -129,7 +129,6 @@ void threadpool<T>::run()
         else
 	{
                 task->doit();
-		delete task;
 	}
     }
     //for test
